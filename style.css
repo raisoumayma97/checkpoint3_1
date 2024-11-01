@@ -202,10 +202,21 @@ h1{
     .nav{
         display: flex;
         flex-wrap: wrap;
+        flex-flow: column;
         justify-content: space-around;
         margin-top: 10px;
     }
     
-    
+   
 
+  }
+  
+
+  @media screen and (max-width: 500px){
+     
+    .nav .liste ul {
+        display: flex;
+        flex-flow: column;
+    }
+    
   }
